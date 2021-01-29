@@ -1,0 +1,25 @@
+{
+    "name": "benlumia007/mint",
+    "description": "Mint for FSE.",
+    "keywords": [
+        "wordpress",
+        "wordpress-theme"
+    ],
+    "homepage": "https://github.com/benlumia007/mint",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Lu",
+            "email": "benlumia007@gmail.com",
+            "homepage": "https://getbenonit.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mint\\": "app/"
+		},
+		"files":[
+			"app/functions-setup.php"
+		]
+    }
+}
