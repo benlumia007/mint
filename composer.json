@@ -19,6 +19,7 @@
             "Mint\\": "app/"
 		},
 		"files":[
+            "app/functions-scripts.php",
 			"app/functions-setup.php"
 		]
     }
