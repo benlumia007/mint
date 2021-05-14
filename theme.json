@@ -15,9 +15,9 @@
 					"name": "White"
 				},
 				{
-					"slug": "dark-blue",
-					"color": "#1d1f35",
-					"name": "Dark blue"
+					"slug": "snow",
+					"color": "#fcfcfc",
+					"name": "Snow"
 				},
 				{
 					"slug": "light-blue",
@@ -183,14 +183,14 @@
                         "top": "0px",
                         "right": "0px",
                         "bottom": "0px",
-                        "left": "0px"
+                        "left": "18px"
                     }
                 },
                 "typography": {
-                    "fontSize":"var(--wp--preset--font-size--text-big)"
+                    "fontSize":"var(--wp--preset--font-size--big)"
                 }
             },
-            "core/site-tagline": {
+			"core/post-title": {
                 "spacing": {
                     "margin": {
                         "top": "0px",
@@ -198,11 +198,9 @@
                         "bottom": "0px",
                         "left": "0px"
                     }
-                }
-            },
-			"core/post-title": {
+                },
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--huge)"
+					"fontSize": "var(--wp--preset--font-size--bigger)"
 				}
 			},
 			"core/paragraph": {

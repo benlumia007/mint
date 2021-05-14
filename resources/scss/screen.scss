@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.wp-block-group.site-header,
+.wp-block-group.site-navigation {
+    padding: 0;
+}
+
+.wp-block-group.site-navigation {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.wp-block-group .wp-block-site-title a {
+    text-decoration: none;
+}
+
+.wp-block-query-loop {
+    margin: 0;
+}
